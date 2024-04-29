@@ -5,7 +5,7 @@ public class Monedas {
     private int time_next_update_unix;
     private String time_next_update_utc;
     private String base_code;
-     private Double conversion_rates;
+    //  private Double conversion_rates;
 
     //constructor
     public Monedas(String result
@@ -14,7 +14,7 @@ public class Monedas {
                 , int time_next_update_unix
                 , String time_next_update_utc
                 , String base_code
-                 , Double conversion_rates
+                //  , Double conversion_rates
                 ) {
         this.result = result;
         this.time_last_update_unix = time_last_update_unix;
@@ -22,7 +22,7 @@ public class Monedas {
         this.time_next_update_unix = time_next_update_unix;
         this.time_next_update_utc = time_next_update_utc;
         this.base_code = base_code;
-         this.conversion_rates = conversion_rates;
+        //  this.conversion_rates = conversion_rates;
     }
 
     public Monedas(String result) {
@@ -36,7 +36,7 @@ public class Monedas {
         this.time_next_update_unix = Integer.valueOf(miExchange.time_next_update_unix());
         this.time_next_update_utc = miExchange.time_next_update_utc();
         this.base_code = miExchange.base_code();
-         this.conversion_rates = Double.valueOf(miExchange.conversion_rates());
+        //  this.conversion_rates = Double.valueOf(miExchange.conversion_rates());
     }
     
     public Monedas(){ }
@@ -62,10 +62,10 @@ public class Monedas {
     public String getBase_code() {
         return base_code;
     }
-     public String getConversion_rates() {
-         //return Double.valueOf(conversion_rates);
-         return conversion_rates;
-     }
+    //  public String getConversion_rates() {
+    //      //return Double.valueOf(conversion_rates);
+    //      return conversion_rates;
+    //  }
     
     //metodos
     @Override
