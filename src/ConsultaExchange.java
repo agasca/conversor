@@ -14,10 +14,11 @@ public class ConsultaExchange {
         .setPrettyPrinting()
         .create();        
 
-    public Exchange buscaExchange(){
+    private String monedaBase;
+    public Exchange buscaExchange(String monedaIn){
+        this.monedaBase = monedaIn;
         //URL propia
         String clave = "d987371e09f1c8a8f2581542";
-        String monedaBase = "USD";
         URI direccion = URI.create("https://v6.exchangerate-api.com/v6/"+clave+"/latest/"+monedaBase+"/");
         
         try{
