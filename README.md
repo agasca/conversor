@@ -1,18 +1,38 @@
-## Getting Started
+# Welcome to the world of Java with Alura and Oracle One Training  
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## _Challenge_.  
+Currency Converter. By reading these code you will learn how to make requests to an exchange rate API, how to manipulate JSON data and finally how to filter and display currencies of interest.   
 
-## Folder Structure
 
-The workspace contains two folders by default, where:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Features
+The steps to complete this challenge will be detailed below and will be available in the adjacent section:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Configuring the Java Environment,
+- Project Creation,
+- API Consumption,
+- JSON Response Analysis,
+- Coin Filtering,
+- Displaying results to users, etc c.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## IDE
+Visual Studio Code was used to write Java code.
 
-## Dependency Management
+## Online setbacks and query sources (URL):
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+[CHALLENGE PROBLEM](https://app.aluracursos.com/forum/topico-problema-con-el-desafio-238910/).
+
+[I already have the JSON, but I can't extract the info](https://app.aluracursos.com/forum/topico-ya-tengo-el-json-pero-no-puedo-extraer-la-info-238931/)
+
+[How to access nested elements of json object using getJSONArray method](https://stackoverflow.com/questions/14898768/how-to-access-nested-elements-of-json-object-using-getjsonarray-method)
+
+[Parsing nested JSON data using GSON](https://stackoverflow.com/questions/19169754/parsing-nested-json-data-using-gson)
+
+[Gson Deserialization](https://www.baeldung.com/gson-deserialization-guide)
+
+> Note: Thanks to programmers who shared code on forums and web pages.
+
+Dates:
+````sh
+20240422 - 20240929
+`
